@@ -1,0 +1,127 @@
+.mainrow {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: rgb(252, 246, 246);
+
+    &__col1 {
+        width: 60%;
+        height: 60vh;
+        // background-color: aqua;
+
+        &__h3 {
+            font-size: 28px;
+            font-weight: 700;
+            color: #10385B;
+            padding-left: 20px;
+        }
+
+        &__row1 {
+            display: flex;
+            width: 100%;
+            height: 10vh;
+
+            // background-color: bisque;
+
+            &__input {
+                width: 100%;
+                height: 20px;
+
+            }
+
+        }
+
+        &__row2 {
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            // background-color: rgb(216, 233, 60);
+
+            &__input {
+                width: 100%;
+                height: 20px;
+
+            }
+
+        }
+
+        &__row3 {
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            // background-color: rgb(156, 160, 118);
+
+            &__input {
+                width: 100%;
+                height: 20px;
+
+            }
+
+        }
+
+        &__row4{
+            width: 100%;  
+            height: 10vh;
+            display: flex;
+            // background-color: rgb(51, 212, 30);
+            &__input{
+                width: 100%;
+                height: auto;
+               
+              }
+  
+          }
+
+
+    }
+
+    &__col2 {
+       
+        width: 40%;
+        height: 60vh;
+       
+        &__h2{
+            margin: 30px;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: 800;
+            color: #10385B;
+        }
+        &__p{
+            padding: 20px;
+            margin: 20px;
+            font-size: 16px;
+        }
+    }
+}
+
+@include mobile{
+    .mainrow{
+        height: auto;
+        display: block;
+        margin-top: 10px;
+    }
+    .mainrow__col1{
+        width: 100%;
+        height: auto;
+    }
+    .mainrow__col1__h3{
+        font-size: 20px;
+    }
+    .mainrow__col2{
+        width: 100%;
+        height: auto;
+    }
+    .mainrow__col2__h2{
+        margin: 10px;
+        padding: 10px;
+        font-size: 20px;
+    }
+    .mainrow__col2__p{
+        padding: 10px;
+            margin: 10px;
+    }
+   
+
+}

@@ -1,0 +1,45 @@
+//base
+@import './base/base';
+@import './base/color';
+@import './base/spacer';
+@import './base/mixins';
+
+
+
+//atom
+@import './atom/applybtn';
+
+
+//molecule
+@import './molecule/trainingcard';
+@import './molecule/iconheadingmolecule';
+@import './molecule/buldinghightrustmoli';
+@import './molecule/employeeheading';
+@import './molecule/empcard';
+@import './molecule/benefitcard';
+@import './molecule/coursevaluecard';
+@import './molecule/heading1';
+@import './molecule/heading2';
+@import './molecule/dataengineeringmoli';
+@import './molecule/dataengineeringcard';
+@import './molecule/locationcard';
+
+
+//organism
+@import './organism/headerorg';
+@import './organism/navbar';
+@import './organism/ourvision';
+@import './organism/trainingorg';
+@import './organism/greatplacetowork';
+@import './organism/employeeorg';
+@import './organism/benefitorg';
+@import './organism/benmaincardorg';
+@import './organism/coursevaluorg';
+@import './organism/intakesorg';
+@import './organism/requestdemoorg';
+@import './organism/locationorg';
+@import './organism/subscribeorg';
+@import './organism/contactorg';
+@import './organism/combined3section';
+@import './organism/footerorg';
+

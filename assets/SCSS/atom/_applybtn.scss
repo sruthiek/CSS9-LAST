@@ -1,0 +1,23 @@
+.btn{
+    width: 110px;
+    margin-top: 20px;
+    height: 60%;
+    background-color: #04BBF2;
+    padding: 1px;
+    color: white;
+    &__h6{
+        padding: 2px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    &--new{
+        width: 120px;
+        margin-left: 20px;
+        height: 10%;
+        background-color: #10385B;  
+        padding: 1px;
+        text-align: center;
+    }
+    
+}

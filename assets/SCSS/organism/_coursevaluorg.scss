@@ -1,0 +1,100 @@
+.coursevaluecontainer {
+    width: 100%;
+    height: auto;;
+    margin-top: 150px;
+    background-color: #F1F5F8;
+
+
+    &__h5 {
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 14px;
+        color: #10385B;
+
+    }
+
+    &__h3 {
+
+        font-size: 28px;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-left: 20px;
+        color: #10385B;
+    }
+
+    &__mainrow {
+        display: flex;
+        width: 100%;
+        height: auto;
+        // background-color: #73a6d3;
+
+        &__col1 {
+            width: 50%;
+            height: 60vh;
+            // background-color: #28e644ab;
+
+            &__row1 {
+                width: 100%;
+                height: 15vh;
+                padding-top: 50px;
+                display: flex;
+                justify-content: space-between;
+                // background-color: aqua;
+            }
+
+            &__row2 {
+                padding-top: 10%;
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                height: 15vh;
+                // background-color: rgb(127, 167, 167);
+            }
+        }
+
+        &__col2 {
+            width: 50%;
+            height: 60vh;
+            // background-color: #384e3bab;
+
+            &__img {
+                width: auto;
+                padding-left: 20%;
+            }
+        }
+    }
+
+}
+
+@include mobile {
+    .coursevaluecontainer {
+        height: auto;
+        margin-top: 10px;
+    }
+.coursevaluecontainer__mainrow{
+    display: block;
+    height: auto;
+}
+.coursevaluecontainer__mainrow__col1{
+    width: 100%;
+            height: auto;
+}
+.coursevaluecontainer__mainrow__col1__row1{
+    height: auto;
+    padding-top: 10px;
+    display: block;
+}
+.coursevaluecontainer__mainrow__col1__row2{
+    height: auto;
+    padding-top: 10px;
+    display: block;
+}
+.coursevaluecontainer__mainrow__col2{
+    width: 100%;
+            height: auto;
+}
+.coursevaluecontainer__mainrow__col2__img{
+    width: 60%;
+}
+   
+}

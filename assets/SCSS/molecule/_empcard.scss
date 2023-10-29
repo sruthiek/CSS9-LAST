@@ -1,0 +1,43 @@
+.card{
+    width: 20%;
+    height: 40vh;
+    display: flex;
+    border: none;
+    border-radius: 0px;
+    // background-color: darkgoldenrod;
+    &__img{
+        width: 20%;
+        height: 20%;
+        padding-left: 10px;
+    }
+    &__h4{
+        font-size: 18px;
+        font-weight: 600;
+        padding-left: 10px;
+        color: #10385B;
+       
+    }
+    &__P{
+        font-size: 14px;
+        font-weight: 400;
+        padding-left: 10px;
+       color:#666666 ; 
+      
+    }
+    &__btn{
+        margin-left: 20px;
+        width: 100px;
+        height: 40px;
+        color:#0060E4 ;
+        font-size: 16px;
+        font-weight: 500;
+        background-color: white;
+    }
+}
+
+@include mobile{
+    .card{
+        height: auto;
+        width: 100%;
+    }
+}

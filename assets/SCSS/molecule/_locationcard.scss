@@ -1,0 +1,22 @@
+.locationcardcontainer{
+    width: 20%;
+    height: 50%;
+    // background-color: aqua;
+    padding: 30px;
+    margin: 10px;
+    &__h3{
+        font-size: 16px;
+        font-weight: 800;
+        letter-spacing: 3px;
+    }
+    &__p{
+        font-size: 14px;
+    }
+}
+
+@include mobile {
+    .locationcardcontainer{
+        width: auto;
+        height: auto;
+    } 
+}

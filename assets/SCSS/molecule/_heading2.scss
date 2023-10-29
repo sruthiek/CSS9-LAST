@@ -1,0 +1,16 @@
+.paracontainer{
+    width: 80%;
+    height: 50%;
+    margin-left: 20px;
+    // background-color: blueviolet;
+    margin-top: 20px;
+}
+
+@include mobile{
+    .paracontainer{
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+    }
+   
+}

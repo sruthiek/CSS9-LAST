@@ -1,0 +1,17 @@
+.benefit{
+    margin-top: 50px;
+    width: 100%;
+    height: 40vh;
+    padding: 20px;
+   
+    background-color: whitesmoke;
+    display: flex;
+}
+
+@include mobile{
+    .benefit{
+        height: auto;
+        display: block;
+        margin-top: 10px;
+    } 
+}

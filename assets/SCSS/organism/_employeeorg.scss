@@ -1,0 +1,14 @@
+.empmain{
+    display: flex;
+}
+.carditem{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@include mobile{
+    .carditem{
+        display: block;
+    }  
+}

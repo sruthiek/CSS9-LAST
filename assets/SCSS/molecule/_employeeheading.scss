@@ -1,0 +1,29 @@
+.empheadinng{
+    width: 100%;
+    margin-top: 20px;
+    height: 20vh;
+    // background-color: aqua;
+    margin-bottom: 20px;
+    &__h5{
+        font-size: 28px;
+        font-weight: 600;
+        text-align: center;
+        color: #10385B;
+        overflow-y: hidden;
+    }
+    &__p{
+        text-align: center;
+        font-size: 14px;
+        padding-top: 10px;
+    }
+}
+
+@include mobile{
+    .empheadinng{
+        height: auto;
+        margin-top: 10px;
+    } 
+    .empheadinng__h5{
+        font-size: 19px;
+    }
+}

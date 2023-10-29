@@ -1,0 +1,25 @@
+.heading1{
+    width: 30%;
+    height: 50%;
+    margin-top: 20px;
+    margin-left: 10px;
+    // background-color: aqua;
+    &__h6{
+        font-size: 14px;
+        font-weight: 400;
+        color: white;
+    }
+    &__h3{
+        font-size: 28px;
+        font-weight: 600;
+        color: white;
+    }
+}
+
+@include mobile{
+    .heading1{
+        width: 100%;
+        height: auto;
+        margin: 0px;
+    } 
+}

@@ -1,0 +1,15 @@
+.locationmaincontainer{
+    width: 100%;
+    height: 60vh;
+    background-color: #E9E9E9;
+    display: flex;
+   
+}
+
+
+@include mobile {
+    .locationmaincontainer{
+        height: auto;
+        display: block;
+    }  
+}

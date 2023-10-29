@@ -1,0 +1,32 @@
+.benefitcard{
+   
+    width: 25%;
+    height: 35vh;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    &__img{
+        width: 30px;
+        height: 30px;
+    }
+    &__h4{
+      
+        font-size: 18px;
+        font-weight: 800;
+        color: #10385B;
+    }
+    &__P{
+       
+        font-size: 14px;
+        color: #666666;
+        margin-top: 10px;
+    }
+}
+
+@include mobile{
+    .benefitcard{
+        // display: block;
+        width: 100%;
+        height: auto;
+    } 
+}
